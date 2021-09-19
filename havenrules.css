@@ -1,0 +1,82 @@
+
+.od {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  background: var(--gradient);
+  border-radius: 15px;
+}
+.od-icon {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 30px;
+  right: -30px;
+  border-radius: 100%;
+  background: var(--gradient2);
+  padding: 10px;
+  z-index: 5;
+}
+.od-icon img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.od-post {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  right: -170px;
+  top: -50px;
+  padding: 20px;
+  background: var(--post);
+  border-radius: 20px;
+  color: #515151;
+  overflow: auto;
+  text-align: justify;
+  font: 13px/150% 'roboto';
+}
+.od-post b {
+   font: 400 14px 'montserrat alternates';
+  color: var(--custom);
+}
+.od-post u {
+   text-decoration: none;
+  border-bottom: 1px solid;
+  border-image: var(--custom);
+  border-image-slice: 2;
+  border-width: 1px;
+  padding-bottom: 2px;
+  font-family: roboto;
+}
+.od-post i {
+  color: var(--tag);
+  font-style: strong;
+  font-size: 15px;
+}
+.od-bottom {
+  position: relative;
+  right: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.od-tag {
+  font-family: eczar;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  color: var(--custom);
+  background: var(--notes) no-repeat bottom/100% 15px;
+  border-image-source: var(--gradient2);
+  border-bottom: 2px solid;
+  border-image-slice: 2;
+  border-width: 2px;
+}
+.od-tag a {
+   text-decoration: none;
+  background: none !important;
+  -webkit-box-decoration-break: initial !important;
+  -webkit-background-clip: initial !important;
+  -webkit-text-fill-color: initial !important;
+  color: var(--link) !important;
+}
