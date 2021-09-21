@@ -1,0 +1,168 @@
+
+.albedo {
+  width: 500px;
+  height: 100%;
+  margin: auto;
+  background: #3f3f3f;
+  border-radius: 5px;
+        background-image: url('https://i.ibb.co/j4zSdj5/light-spots2.png');
+  overflow: hidden;
+}
+.albedo-top {
+  width: 100%;
+  height: 130px;
+  background: #1f1f1f;
+  border-radius: 5px 5px 0 0;
+}
+.albedo-lyric-1 {
+  font-family: 'raleway';
+  font-wieght: 900;
+  font-size: 25px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  position: relative;
+  right: 0;
+  top: -145px;
+}
+.albedo-lyric-2 {
+  font-family: 'raleway';
+  font-wieght: 900;
+  font-size: 25px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  position: relative;
+  right: 0;
+  top: -140px;
+}
+.albedo-img {
+  width: 500px;
+  height: 150px;
+  background: var(--gradient);
+  border-radius: 6px 6px 0 0;
+  position: absolute;
+  top: 50px;
+}
+.albedo-img img {
+  width: 500px;
+  height: 150px;
+  filter: grayscale(100%);
+  mix-blend-mode: soft-light;
+  border-radius: 5px 5px 0 0;
+}
+.albedo-middle {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.albedo-body {
+  background: #2f2f2f;
+  text-align: justify;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #9f9f9f;
+  font: 13px/150% 'roboto';
+  border-radius: 10px;
+}
+.albedo-body b {
+  font: 600 15px 'montserrat';
+  background: rgb(144,74,62);
+background: var(--gradient);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  width: fit-content;
+}
+.albedo-body u {
+  text-decoration: none;
+  border-bottom: 1px solid;
+  border-image: var(--gradient);
+  border-image-slice: 2;
+  border-width: 1px;
+  padding-bottom: 2px;
+}
+.albedo-icon {
+    width: 75px;
+  height: 75px;
+  border-radius: 5px;
+  margin: 20px 20px 5px 5px;
+  float: left;
+  position: relative;
+  top: 5px;
+  background: var(--custom);
+}
+.albedo-icon img {
+    filter: grayscale(100%)brightness(120%);
+  mix-blend-mode: lighten;
+  border-radius: 5px;
+  width: 75px;
+  height: 75px;
+}
+.albedo-bottom {
+  width: 100%;
+  height: 70px;
+  background: #1f1f1f;
+  border-radius: 0 0 5px 5px;
+}
+.albedo-bottom h1 {
+	text-align:left;
+	width:100%;
+	position:relative;
+	bottom:-10px;
+	left:-15px;
+	text-transform:uppercase;
+	font:700 70px/80% montserrat;
+	font-style:italic;
+	color:rgba(255,255,255,.25);
+  opacity: .5;
+	display:flex;
+	align-items:center;
+}
+.albedo-bottom h2 {
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:center;
+  gap:10px;
+  position: relative;
+  top: -80px;
+  right: -130px;
+}
+.albedo-bottom h2 a {
+  font:700 10px montserrat;
+  text-transform:uppercase;
+  color:#111;
+  text-decoration:none;
+background: var(--gradient);
+  padding: 8px;
+  border-radius: 5px;
+}
+.havencred {
+  position: relative;
+  padding: 10px;
+  text-align: center;
+}
+.havencred i {
+  font-size: 15px;
+  color: #676AC2;
+  transition: 1s;
+}
+.havencred a {
+  text-decoration: none;
+  color: #676AC2 !important;
+}
+.havencred:hover i {
+  color: #191D90;
+}
