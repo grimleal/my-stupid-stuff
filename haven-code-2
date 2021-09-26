@@ -1,0 +1,157 @@
+.imth {
+  width: 550px;
+  margin: 35px auto;
+  background: #181818;
+  color: #aaaaaa;
+  font: 13.5px Hind;
+  text-align: justify;
+  line-height: 20px;
+  border-radius: 5px;
+}
+.imth-img {
+  position: relative;
+  width: 550px;
+  height: 150px;
+  background-color: var(--custom);
+  mix-blend-mode: lighten;
+  filter: grayscale(50%) brightness(75%);
+  border-radius: 5px 5px 0 0;
+}
+.imth-img img {
+mix-blend-mode: lighten;
+  width: 550px;
+  height: 150px;
+  border-radius: 5px 5px 0 0;
+}
+.imth-img-1 {
+  position: relative;
+  top: -157px;
+  width: 550px;
+  height: 150px;
+  background-color: var(--custom);
+  border-radius: 5px 5px 0 0;
+}
+.imth-img-1 img {
+    filter: contrast(100%) brightness(100%);
+}
+.imth-top {
+  background-color: #121212;
+  padding: 20px;
+  text-align: left;
+  white-space: nowrap;
+  border-top: solid 5px var(--custom);
+  border-bottom: solid 5px var(--custom);
+}
+.imth-icon {
+  border: solid 1px #313131;
+  padding: 50px;
+  border-radius: 100%;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  background-color: #151515;
+  margin: -30px 370px;
+}
+.imth-icon img {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  mix-blend-mode: screen;
+}
+.imth-icon div {
+  height: 80px;
+  width: 80px;
+  padding: 2px;
+  border: solid 3px var(--custom);
+  border-radius: 100%;
+  background-color: var(--custom);
+}
+.imth-lyrics {
+  padding-left: -250px;
+}
+.imth-lyrics div {
+    margin: 0px;
+  font: 800 25px 'montserrat alternates';
+  position: relative;
+right: -50px;
+  line-height: 28px;
+  color: #121212;
+  -webkit-text-stroke: 1.5px var(--custom);
+  text-align: left;
+  letter-spacing: 0.5px;
+}
+.imth-middle {
+  padding: 36px;
+          background-image: url('https://i.ibb.co/j4zSdj5/light-spots2.png');
+}
+.imth-post {
+  background-color: #212121;
+  padding: 40px;
+  border-radius: 3px;
+}
+.imth-post h1 {
+  background: var(--custom);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  width: fit-content;
+  position: relative;
+  line-height: 35px;
+}
+.imth-post h2 {
+    display:flex;
+  flex-flow:row wrap;
+  justify-content:center;
+  gap:10px;
+  position: relative;
+  top: 10px;
+}
+.imth-post h2 a {
+      font:700 15px montserrat;
+  text-transform:uppercase;
+  color:#111;
+  text-decoration:none;
+background: var(--custom);
+  padding: 8px;
+  border-radius: 5px;
+}
+.imth-post b {
+font-size: 15px;
+font-weight: 300;
+  color: var(--custom);
+  font-family: 'roboto';
+}
+.imth-post b i, .imth-post b u, .imth-post b i u, .imth-post b u i, .imth-post i u, .imth-post u i {
+  color:revert;
+}
+
+.imth-post  i { 
+color:#eee;
+  font-weight:400;
+}
+
+.imth-post u {
+  color:#666;
+  font-weight:600;
+  text-decoration:none;
+  border-bottom:1px solid var(--custom);
+}
+.havencred {
+  position: relative;
+  padding: 10px;
+  text-align: center;
+}
+.havencred i {
+  font-size: 15px;
+  color: #676AC2;
+  transition: 1s;
+}
+.havencred a {
+  text-decoration: none;
+  color: #676AC2 !important;
+}
+.havencred:hover i {
+  color: #191D90;
+}
