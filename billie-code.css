@@ -50,7 +50,7 @@
   background: var(--gradient);
   border-radius: 6px 6px 0 0;
   position: absolute;
-  top: 40px;
+  top: 0px;
 }
 .albedo-img img {
   width: 500px;
