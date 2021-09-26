@@ -80,7 +80,6 @@
   color: var(--custom);
 }
 .albedo-body u {
-  background:#151515;
   padding:2px 5px;
   border-bottom:2px solid var(--custom);
   text-decoration:none;
