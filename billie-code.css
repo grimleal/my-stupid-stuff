@@ -99,6 +99,7 @@ background: var(--gradient);
 }
 .albedo-body i b {
 	color: var(--custom);
+}
 .albedo-icon {
     width: 75px;
   height: 75px;
