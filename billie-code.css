@@ -94,6 +94,11 @@ background: var(--gradient);
   border-width: 1px;
   padding-bottom: 2px;
 }
+.albedo-body i {
+	color: var(--custom);
+}
+.albedo-body i b {
+	color: var(--custom);
 .albedo-icon {
     width: 75px;
   height: 75px;
