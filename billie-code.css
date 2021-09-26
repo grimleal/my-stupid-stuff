@@ -139,7 +139,6 @@ background: var(--gradient);
 }
 .albedo-bottom h2 {
   display:flex;
-  flex-flow:row wrap;
   justify-content:center;
   gap:10px;
   position: relative;
