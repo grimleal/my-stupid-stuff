@@ -1,0 +1,112 @@
+body {
+  background: #292929;
+  width: 550px;
+  margin: 50px auto;
+  --custom: #098364;
+}
+.wyds {
+  width: 550px;
+  height: 400px;
+  margin: 50px auto;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+.wyds-side-bar {
+  width: 150px;
+  height: 270px;
+  position: relative;
+  top: -385px;
+  right: -30px;
+  background: var(--custom);
+  border-radius: 12px;
+  border: solid 10px var(--custom);
+}
+.wyds-side-bar img {
+  width: 150px;
+  height: 270px;
+  border-radius: 10px;
+  filter: contrast(120%);
+  transition: 0.5s;
+}
+.wyds-color-side {
+  position: relative;
+  width: 100px;
+  height: 400px;
+  background-color: var(--custom);
+  border-radius: 8px 0 0 8px;
+}
+.wyds-tag {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #fff;
+  border-right: 5px solid var(--custom);
+  border-radius: 5px;
+  width: 133px;
+  height: 50px;
+  padding: 10px;
+  top: -390px;
+  right: -40px;
+  font: 22px/100% "kaisei tokumin";
+  font-style: italic;
+}
+.wyds-tag a {
+   display: flex;
+  font: 10px/150% "bitter";
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--custom);
+}
+.wyds-tag a::before {
+   content:'icon-unicode';
+font-family:'cappuccicons';
+  content: "\ec9f";
+  padding-right: 2px;
+  font-size: 9px !important;
+  color: var(--custom);
+}
+.wyds-body {
+  width: 300px;
+  height: 380px;
+  padding-right: 20px;
+  padding-left: 20px;
+  overflow: auto;
+  position: relative;
+  top: -770px;
+  right: -195px;
+  text-align: justify;
+  font: 13px/170% 'roboto';
+}
+.wyds-body b {
+  color: var(--custom);
+  font: 300 15px 'montserrat';
+}
+.wyds-body u {
+    background:var(--custom);
+	color:#f2f2f2;
+	text-decoration:none;
+  padding: 1px;
+  font-family: montserrat;
+}
+.wyds-body i {
+  color: var(--custom);
+}
+::-webkit-scrollbar{
+width: 1px;
+height: 1px;
+}
+::-webkit-scrollbar-thumb{
+background: var(--custom);
+border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover{
+background: #B3AFB3;
+}
+::-webkit-scrollbar-track{
+background: #F0F0F0;
+border-radius: 0px;
+box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+}
