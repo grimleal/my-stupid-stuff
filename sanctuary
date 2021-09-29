@@ -1,0 +1,87 @@
+.sanctuary {
+  margin: auto;
+  width: 450px;
+  height: auto;
+  background: var(--gradient), var(--pattern);
+  padding: 30px;
+  border-radius: 5px;
+  border: solid #191919 1px;
+}
+.sanctuary-box {
+  background: #f1f1f1;
+  padding: 30px;
+  border-radius: 5px;
+  border: solid #191919 1px;
+  color: #000;
+  text-align: justify;
+  font: 500 12px/150% 'montserrat';
+}
+.sanctuary-box i {
+  font: italic 500 12px 'montserrat';
+}
+.sanctuary-box b {
+  font: 300 14.5px 'noto sans display';
+  color: var(--custom);
+}
+.sanctuary-box u {
+    text-decoration: none;
+  border-bottom: 1px solid;
+  border-image: var(--gradient);
+  border-image-slice: 2;
+  border-width: 1px;
+  padding-bottom: 2px;
+  font-family: noto sans display;
+  color: #9f9f9f;
+}
+.sanctuary-icon {
+  width: 75px;
+  height: 75px;
+  border-radius: 5px;
+  margin: 20px 20px 5px 5px;
+  float: left;
+  position: relative;
+  background: var(--custom);
+}
+.sanctuary-icon img {
+  filter: contrast(150%);
+  border-radius: 5px;
+  width: 75px;
+  height: 75px;
+}
+.sanctuary-t {
+  width: 440px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.sanctuary-t tag {
+   text-transform: uppercase;
+  font: bold 15px 'oswald';
+  color: #1f1f1f;
+}
+.sanctuary-t tag:before {
+  content:'\e9d8';
+font-family:'cappuccicons';
+padding-right: 5px;
+  color: var(--custom);
+  font-weight: 800;
+  font-size: 25px;
+}
+.sanctuary-t tagbox {
+  position: relative;
+  right: -5px;
+    padding: 5px;
+  border-radius: 5px;
+  background: rgba(var(--background), .5);
+  backdrop-filter: blur(2px);
+}
+.sanctuary-t tagbox a {
+  position: relative;
+  right: 1px;
+  color: var(--custom);
+  font-weight: 700;
+  background: var(--custom) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
