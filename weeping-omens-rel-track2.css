@@ -1,0 +1,134 @@
+
+.weeping-omens-rel-track {
+  overflow: hidden;
+  margin: auto;
+   width:450px; 
+  border:5px solid #111; 
+  background-color:#222; 
+  height:350px; 
+  color:#888888;
+}
+.weeping-omens-rel-track .top {
+    position: relative;
+  z-index: 3;
+  background-color:#191919;
+  width: 200px;
+  float: left;
+  margin:15px 15px;
+  padding:20px;
+  border: #111;
+  border-radius:6px;
+  color:#999;
+  text-align:justify;
+  font:20px 'roboto';
+  font-weight:700;
+  text-align:center;
+}
+
+.weeping-omens-rel-track .top b {
+  color:var(--custom);
+}
+
+.weeping-omens-rel-track .tropes {
+    display:flex;
+  flex-flow:column wrap;
+  justify-content:center;
+  gap:5px;
+  position: relative;
+  right:250px;
+  top: 90px;
+}
+
+.weeping-omens-rel-track .tropes div {
+    position: relative;
+  z-index: 2;
+  font:600 9px montserrat;
+  text-transform:uppercase;
+  color:#999;
+  text-decoration:none;
+background: #191919;
+  padding: 5px;
+  border-radius: 5px;
+}
+.weeping-omens-rel-track .tropes div:before {
+  content:'\eb02';
+font-family:'cappuccicons';
+  color: var(--custom);
+  padding: 5px;
+}
+
+.weeping-omens-rel-track .rel-icon {
+  position: relative;
+  z-index: 2;
+  top: -130px;
+  left: 300px;
+  width: 90px;
+  height: 90px;
+  background: #191919;
+  padding: 50px;
+  border-radius: 100%;
+}
+.weeping-omens-rel-track .rel-icon img {
+  position: relative;
+  z-index: 2;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  filter: grayscale(100%) contrast(50%);
+}
+.weeping-omens-rel-track .rel-icon i {
+  position: relative;
+  z-index: 1;
+  font-size: 55px;
+  top: -110px;
+  right: 30px;
+  color: var(--custom);
+  opacity: .5;
+  transform: rotate(-15deg);
+  display: block;
+}
+.weeping-omens-rel-track .rel-blurb {
+  width: 250px;
+  background: #191919;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+  height: 120px;
+  width: 150px;
+  position: relative;
+  top: -80px;
+  right: -20px;
+  border-radius: 3px;
+  font: 10px 'montserrat';
+  overflow: auto;
+}
+.weeping-omens-rel-track .rel-blurb::-webkit-scrollbar{
+width: 1px;
+height: 1px;
+}
+
+.weeping-omens-rel-track .rel-blurb b {
+  color: var(--custom)
+}
+.weeping-omens-rel-track .rel-bar-title {
+  font: 600 10px 'montserrat';
+  color: var(--custom);
+  position: relative;
+  top: -210px;
+  right: -250px;
+}
+.weeping-omens-rel-track .rel-bar {
+  width: 170px;
+  background-color: black;
+  border-radius: 13px;
+  padding: 1px;
+  position: relative;
+  top: -200px;
+  right: -250px;
+}
+
+.weeping-omens-rel-track .rel-bar div {
+   background-color: var(--custom);
+  height: 2px;
+  border-radius: 10px;
+}
