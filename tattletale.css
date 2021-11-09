@@ -1,0 +1,133 @@
+.tattletale {
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  background: #212121;
+  padding: 30px;
+  border: 1px solid #000;
+  outline: 1px solid #000;
+  outline-offset: 3px;
+  overflow: hidden;
+      background-image: url('https://i.ibb.co/j4zSdj5/light-spots2.png');
+}
+.tattletale-icon-circle {
+  position: relative;
+  top: -70px;
+  right: 70px;
+  background: #111;
+  height: 220px;
+  width: 220px;
+  border-radius: 100%;
+}
+.tattletale-icon {
+  position: relative;
+  top: 15px;
+  right: -15px;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  padding: 50px;
+}
+.tattletale-icon img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  filter: grayscale(100%) contrast(75%);
+}
+.tattletale-lyric-1 {
+  position: relative;
+  right: -165px;
+  top: -230px;
+  font-family: 'montserrat';
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: -2px;
+  color: #444;
+  text-align: right;
+  width: 250px;
+}
+.tattletale-lyric-1 b {
+  color: var(--custom);
+  font-family: 'montserrat';
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+.tattletale-lyric-2 {
+  position: relative;
+  right: -215px;
+  top: -225px;
+  font-family: 'roboto';
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  background: #111;
+  width: 180px;
+  border-radius: 5px;
+}
+.tattletale-tag {
+  position: relative;
+  z-index: 5;
+    display:flex;
+  flex-flow:row wrap;
+  justify-content:center;
+  gap:10px;
+  top: -210px;
+  right: -100px;
+}
+.tattletale-tag a {
+   font:700 11px montserrat;
+  text-transform:uppercase;
+  color:#111;
+  text-decoration:none;
+  background-color: var(--custom);
+  padding: 8px;
+  border-radius: 5px;
+}
+.tattletale-post {
+  width: 350px;
+  height: 270px;
+  text-align: justify;
+  color: #fff;
+  font-family: 'roboto';
+  font-weight: 200;
+  font-size: 12px;
+  overflow: auto;
+  position: relative;
+  top: -190px;
+  right: 5px;
+  background: #191919;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  border-left: 5px solid var(--custom);
+}
+.tattletale-post::-webkit-scrollbar{
+width: 1px;
+height: 1px;
+}
+b {
+  font:100 15px/18px roboto;
+  letter-spacing:0;
+  color:var(--custom);
+}
+..tattletale-post b i, .tattletale-post b u, .tattletale-post b i u, .tattletale-post b u i, .tattletale-post i u, .tattletale-post u i {
+  color:revert;
+}
+
+.tattletale-post .post-body i { 
+color:#eee;
+  font-weight:400;
+}
+
+.tattletale-post u {
+  color:#666;
+  font-weight:600;
+  text-decoration:none;
+  border-bottom:1px solid var(--custom);
+}
