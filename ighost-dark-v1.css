@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+#ighost {
+    margin: 25px auto;
+    width: 550px;
+    min-height: 550px;
+    background: #212121;
+    border: 1px solid #111;
+    padding: 30px;
+    border-radius: 5px;
+  }
+  .ighost-in {
+    border: 1px solid #111;
+    border-radius: 5px;
+    display: grid;
+      width: 545px;
+      grid-template-rows: 1fr;
+    grid-template-columns: 100px 1fr;
+          transition: 0.7s;
+  }
+  .ighost-l {
+    display: grid;
+    width: 70px;
+    background: var(--custom);
+    border-radius: 4px 0 0 4px;
+  }
+  .ighost-l-tag {
+    padding: 45px 15px;
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    transition: 0.3s;
+  }
+  .ighost-l-tag a {
+      position: -webkit-sticky;
+  position: sticky;
+  top: 150px;
+    bottom: 50px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: 'roboto';
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -1px;
+    color: #fff;
+    grid-area: 1/1;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+  }
+  .ighost-post {
+    grid-area: 1 / 2;
+    padding: 35px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 180%;
+    font-family: 'roboto';
+    text-align: justify;
+    color: #afafaf;
+    width: 410px;
+    height: auto;
+  }
+  .ighost-post b {
+    color: var(--custom);
+    font: 100 15px/15px 'poppins';
+  }
+  .ighost-post i {
+    color: var(--custom);
+    font: italic 300 13px 'poppins';
+    letter-spacing: 0.8px;
+  }
+  .ighost-post u {
+    color: #fff;
+    background: var(--custom);
+    font: 100 13px 'poppins';
+    padding: 0.2px;
+    text-decoration: none;
+  }
+  .ighost-post a {
+      color: var(--custom);
+    font: italic 100 13px/15px 'poppins';
+    padding-bottom: 5px;
+  }
+  .ighost-img {
+    width: 70px;
+    height: 70px;
+    margin: 30px 15px 15px 10px;
+    background: var(--custom);
+    padding: 5px;
+    border: #111;
+    float: left;
+  }
+  .ighost-img img {
+    width: 70px;
+    height: 70px;
+    transition: 0.8s;
+    filter: contrast(70%)brightness(65%);
+  }
+  #ighost:hover .ighost-img img{
+    filter: none;
+  }
