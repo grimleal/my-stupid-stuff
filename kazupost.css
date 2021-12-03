@@ -3,115 +3,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .kazupost {
-  width: 500px;
-  margin: 10px auto;
-}
-.kazuheader {
-  background-color: var(--custom);
-  width: 460px;
-  padding: 20px;
-  margin: auto;
-  margin-bottom: 0px;
-  border: 1px solid #111;
-  border-bottom: transparent;
-}
-.kazuheadertitle {
-  font-family: playfair display;
-  font-size: 10px;
-  letter-spacing: 5px;
-  text-align: center;
-  color: #ddd;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-.kazuheadertitle:after {
-  content: "」";
-  font-family: "roboto";
-  font-size: 10px;
-  letter-spacing: 5px;
-  text-align: justify;
-  color: #ddd;
-}
-.kazuheadertitle:before {
-  content: "「";
-  font-family: "roboto';
-  font-size: 10px;
-  letter-spacing: 5px;
-  text-align: justify;
-  color: #ddd;
-}
-.kazuhaposttxt {
-  margin: 0px auto;
-  width: 420px;
-  background-color: #ddd;
-  border: 1px solid #111;
-  padding: 40px;
-  font-family: "roboto";
-  font-size: 11px;
-  letter-spacing: 1px;
-  text-align: justify;
-  color: #101010;
-  line-height: 200%;
-  font-weight: normal;
-}
-.kazuhaposttxt b {
-  color: var(--custom);
-  font-size: 13px;
-  font-family: 'playfair display';
-}
-.kazuhaposttxt b i {
+    width: 500px;
+    margin: 50px auto;
+  }
+  .kazuheader {
+    background-color: var(--custom);
+    width: 460px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 0px;
+    border: 1px solid #111;
+    border-bottom: transparent;
+  }
+  .kazuheadertitle {
+    font-family: playfair display;
+    font-size: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #ddd;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .kazuhaposttxt {
+    margin: 0px auto;
+    width: 460px;
+    background-color: #ddd;
+    border: 1px solid #111;
+    padding: 40px;
+    font-family: "roboto";
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: #101010;
+    line-height: 200%;
+    font-weight: normal;
+  }
+  .kazuhaposttxt b {
     color: var(--custom);
-  font-size: 13px;
-  font-family: 'playfair display';
-}
-.kazuhaposttxt i b {
-  font-size: 13px;
-  color: #888;
-  font-family: 'roboto';
-}
-.kazuhaposttxt u {
-  border-bottom: solid 1px var(--custom);
-  text-decoration: none;
-  color: #444;
-  padding: 1px;
-  font-weight: 900;
-  font-family: playfair display;
-}
-.kazuhaposttxt a {
-  text-decoration: none;
-  color: #afafaf;
-}
-.kazuhaicon {
-  width: 400px;
-  height: 120px;
-  position: relative;
-  top: -15px;
-  right: -5px;
-  border-radius: 3px;
-  background: var(--custom);
-}
-.kazuhaicon img {
-  width: 400px;
-  height: 120px;
-  border-radius: 3px;
-  filter: contrast(55%)grayscale(100%);
-}
-.kazuhaposttxt tagged {
-  margin: 10px;
-  display: flex;
-}
-.kazuhaposttxt tagged a {
-  font-family: 'playfair display';
-  text-decoration: none;
-  text-transform: uppercase;
-  color: var(--custom);
-  font-size: 15px;
-  font-weight: 900;
-  padding: 5px;
-  border-left: 3px solid var(--custom);
-  transition: 0.5s ease;
-}
-.kazuhaposttxt tagged a:hover {
-  transition: 0.5s ease;
-  border-left: 5px inset #fff;
-}
+    font-size: 13px;
+    font-family: 'playfair display';
+  }
+  .kazuhaposttxt b i {
+      color: var(--custom);
+    font-size: 13px;
+    font-family: 'playfair display';
+  }
+  .kazuhaposttxt i b {
+    font-size: 13px;
+    color: #888;
+    font-family: 'roboto';
+  }
+  .kazuhaposttxt u {
+    border-bottom: solid 1px var(--custom);
+    text-decoration: none;
+    color: #444;
+    padding: 1px;
+    font-weight: 900;
+    font-family: playfair display;
+  }
+  .kazuhaposttxt a {
+    text-decoration: none;
+    color: #afafaf;
+  }
+  .kazuhaicon {
+    width: 400px;
+    height: 120px;
+    position: relative;
+    top: -15px;
+    right: 15px;
+    border-radius: 3px;
+    background: var(--custom);
+  }
+  .kazuhaicon img {
+    width: 400px;
+    height: 120px;
+    border-radius: 3px;
+    filter: contrast(55%)grayscale(100%);
+  }
+  .kazuhaposttxt tagged {
+    margin: 10px;
+    display: flex;
+  }
+  .kazuhaposttxt tagged a {
+    font-family: 'playfair display';
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--custom);
+    font-size: 15px;
+    font-weight: 900;
+    padding: 5px;
+    border-left: 3px solid var(--custom);
+    transition: 0.5s ease;
+  }
+  .kazuhaposttxt tagged a:hover {
+    transition: 0.5s ease;
+    border-left: 5px inset #fff;
+  }
