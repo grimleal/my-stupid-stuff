@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.valhalla {
+    line-height: 100%;
+    font-family: roboto;
+    color: #111;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    margin: 50px auto;
+    width: 410px;
+    height: auto;
+    background: #fefefe;
+    border: 1px solid #D1D1D1;
+      border-radius: 20px;
+    box-shadow: 0 0 8px 1px #f2f2f2;
+  }
+  .valhalla-side {
+       display: block;
+    width: 100px;
+    height: 100%;
+    padding: 25px 10px;
+    box-sizing: border-box;
+    background: var(--custom2);
+    text-align: center;
+    display: grid;
+  }
+  .valhalla-side-img {
+    width: 70px;
+    height: 70px;
+    border: 5px solid var(--custom1);
+    border-radius: 100%;
+  }
+  .valhalla-side-img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+  }
+  .valhalla-side tag {
+    width: 70px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .valhalla-side tag a {
+      text-decoration: none;
+    color: var(--custom1);
+  }
+  .valhalla-side-a {
+    width: 330px;
+    margin-top: -1px;
+    margin-left: -30px;
+    box-sizing: border-box;
+    background: var(--bg1);
+    border: 1px solid var(--bor);
+    padding: 50px;
+    text-align: justify;
+    font-size: 11px;
+    line-height: 19px;
+  }
+  .valhalla-side-a b {
+     font-weight: 700;
+    font-size: 13px;
+    padding: 0 2px;
+    color: var(--custom2);
+  }
+  .valhalla-side-a i {
+    font-weight: 700;
+    padding: 0 2px;
+    color: var(--custom2);
+  }
+  .valhalla-side-a b i {
+    font-weight: 300;
+    background: none;
+  }
+  .luacred {
+    margin: -50px 0 0 500px;
+  }
+  .luacred a {
+   font-family: inconsolata; 
+    text-decoration: none;
+    color: #222;
+    font-size: 9px;
+  }
