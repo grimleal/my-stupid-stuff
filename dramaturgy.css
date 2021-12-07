@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.nvrknowcont {
+  width: 550px;
+  height: 500px;
+  background: #fff;
+  margin: auto;
+overflow: hidden;
+  border: #dfdfdf solid 1px;
+color: #555;
+}
+.nvrknowside {
+  width: 150px;
+  height: 400px;
+  position: relative;
+  z-index: 1;
+    background-image: linear-gradient(to bottom, rgb(245, 245, 245,0.1), rgb(138,208,220,0.4)), url(https://img.nickpic.host/qFufVj.md.png); 
+    background-size: cover;
+  transform:scale(1.5);
+}
+.nvrknowside-img {
+  width: 200px;
+  height: 400px;
+  position: relative;
+  z-index: 2;
+  top: -365px;
+  right: -50px;
+  border: 15px solid #fff;
+  background: var(--custom);
+}
+.nvrknowside-img img {
+  width: 200px;
+  height: 400px;
+  filter: contrast(105%);
+}
+.nvrknowbody {
+  padding-right: 30px;
+  width: 220px;
+  height: 400px;
+    position: relative;
+  z-index: 2;
+top: -780px;
+right: -280px;
+  overflow: auto;
+  text-align: justify;
+  font-family: roboto;
+  font-size: 12px;
+  font-weight: 300;
+}
+.nvrknowbody::-webkit-scrollbar {
+  width:13px;
+}
+.nvrknowbody::-webkit-scrollbar-thumb {
+  border:5px solid white;
+  background:var(--custom);
+}
+
+.nvrknowbody::-webkit-scrollbar-track {
+  background:white;
+}
+.nvrknowbody b {
+  color: var(--custom);
+  font-size: 13px;
+  font-family: 'roboto';
+}
+.nvrknowbody i {
+  color: #111;
+  font-weight: 400;
+}
+.nvrknowbody b i {
+    color: var(--custom);
+  font-size: 13px;
+  font-family: 'roboto';
+}
+.nvrknowbody i b {
+  font-size: 13px;
+  color: #111;
+}
+.nvrknowbody u {
+  text-decoration: none;
+  color: #afafaf;
+  border-bottom: 1px solid var(--custom);
+}
+.nvrknowbody  tag a {
+  margin: 10px;
+  float: right;
+  font-family: inconsolata;
+  font-weight: 900;
+  font-size: 15px;
+  opacity: 80%;
+  padding: 5px;
+  background: var(--custom);
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
