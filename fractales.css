@@ -70,7 +70,7 @@ background: -webkit-linear-gradient(90deg, hsla(182, 88%, 94%, 1) 15%, hsla(175,
   padding-bottom: 0px;
   width: 350px;
   background: #fff;
-  color: #111;
+  line-height: 22px;
   font-family: "poppins";
   font-size: 11px;
   font-weight: 400;
@@ -80,20 +80,25 @@ background: -webkit-linear-gradient(90deg, hsla(182, 88%, 94%, 1) 15%, hsla(175,
   border-radius: 3px;
 }
 .fractales-post b {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 12px;
   background-image: background: hsla(187, 45%, 69%, 1);
-
 background: linear-gradient(15deg, hsla(187, 45%, 69%, 1) 17%, hsla(186, 55%, 63%, 1) 49%, hsla(197, 73%, 53%, 1) 97%);
-
 background: -moz-linear-gradient(15deg, hsla(187, 45%, 69%, 1) 17%, hsla(186, 55%, 63%, 1) 49%, hsla(197, 73%, 53%, 1) 97%);
-
 background: -webkit-linear-gradient(15deg, hsla(187, 45%, 69%, 1) 17%, hsla(186, 55%, 63%, 1) 49%, hsla(197, 73%, 53%, 1) 97%);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -ms-background-clip: text;
+}
+.fractales-post i {
+  color: #888;
+  letter-spacing: 1px;
+}
+.fractales-post u {
+  border-bottom: 2px solid var(--custom);
+  text-decoration: none;
 }
 .fractales-tag {
   width: 350px;
@@ -112,5 +117,4 @@ background: -webkit-linear-gradient(15deg, hsla(187, 45%, 69%, 1) 17%, hsla(186,
 }
 .fractales-tag a {
   text-decoration: none;
- color: #111;
 }
