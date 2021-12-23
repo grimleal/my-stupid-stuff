@@ -81,6 +81,7 @@
 }
 .gryrvn-post h1 {
   text-align: center;
+  font-size: 11px;
 }
 .gryrvn-post h1 a {
     font-family: poppins;
@@ -90,4 +91,14 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 12px;
+}
+.luacred {
+  text-align: center;
+  
+}
+.luacred a {
+  text-decoration: none;
+  color: #afafaf;
+  font-family: inconsolata;
+  font-size: 10px;
 }
