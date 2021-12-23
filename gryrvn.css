@@ -79,3 +79,15 @@
   border-width: 1px;
   border-image-slice: 2;
 }
+.gryrvn-post h1 {
+  text-align: center;
+}
+.gryrvn-post h1 a {
+    font-family: poppins;
+  font-weight: 900;
+  text-decoration: none;
+  color: var(--custom);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
