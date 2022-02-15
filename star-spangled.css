@@ -1,0 +1,142 @@
+
+.starspangled {
+  display: flex;
+  margin: 20px auto;
+  width: 500px;
+  background: #f9f9f9;
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--boxshadow);
+}
+.starspangled1 {
+  width: 250px;
+  height: 150px;
+  background: var(--custom);
+}
+.starspangled1 img {
+  width: 250px;
+  height: 150px;
+}
+.starspangled2 {
+ background-color: #dbdbdb;
+background-image: url("https://www.transparenttextures.com/patterns/inflicted.png");
+    padding: 10px;
+  width: 250px;
+  height: 130px;
+}
+.starspangled2 .lyric1 {
+  text-align: right;
+  font: italic 800 13px 'montserrat';
+  text-transform: uppercase;
+  color: #292929;
+    padding-bottom: 5px;
+}
+.starspangled2 .lyric1 span {
+  color: var(--custom);
+}
+.starspangled2 .lyric2 {
+  text-align: center;
+  font: 800 13px 'montserrat';
+  text-transform: uppercase;
+  font-style: italic;
+  color: #292929;
+    padding-bottom: 5px;
+}
+.starspangled2 .lyric2 span {
+  color: var(--custom);
+  font-style: normal;
+  letter-spacing: 1.5px;
+}
+.starspangled2 .lyric3 {
+  text-align: center;
+  font: 800 13px 'montserrat';
+  text-transform: uppercase;
+  color: #292929;
+}
+.starspangled2 .lyric4 {
+  padding-top: 2px;
+  padding-bottom: 5px;
+  text-align: center;
+  font: 900 15px 'playfair display';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--custom);
+  border-bottom: 1px solid var(--custom);
+}
+.starspangled3 {
+  margin: -10px auto;
+  width: 400px;
+  height: auto;
+  padding: 50px;
+  background-color: #dbdbdb;
+background-image: url("https://www.transparenttextures.com/patterns/inflicted.png");
+}
+.starspangled3 div {
+  padding: 30px;
+  background: #dbdbdb;
+   text-align: justify;
+  font: 300 13px 'roboto';
+  color: #191919;
+}
+.starspangled3 div b {
+  color: var(--custom);
+  font: 500 15px 'montserrat';
+}
+
+.starspangled3 div b i,
+.starspangled3 div u i,
+.starspangled3 div span i {
+  color: revert;
+  font-weight: revert;
+}
+
+.starspangled3 div i {
+  font: 500 12px/18px montserrat;
+  font-style: italic;
+  color: #222;
+}
+.starspangled3 div c {
+    color: var(--custom);
+  font: italic 300 15px 'montserrat';
+}
+.starspangled3 div span {
+  color: var(--custom);
+}
+.starspangled3 div u {
+  text-decoration: none;
+  border-bottom: 1px solid var(--custom);
+  color: #222;
+  padding: 0px 3px;
+}
+.starspangled3 div tag {
+  float: right;
+   text-align: right;
+  text-transform: lowercase !important;
+}
+.starspangled3 div tag a {
+  text-decoration: none;
+  font: 800 14px Poppins;
+  line-height: 15px;
+  margin-left: 5px;
+  color: #fff !important;
+  background-color: var(--custom);
+  padding: 5px 10px;
+  letter-spacing: -0.5px;
+  border-radius: 3px;
+  transition: 0.3s all;
+}
+.starspangled3 div tag a::before {
+  content: "# ";
+  color:  white !important;
+}
+.starspangledcred {
+  width: 150px;
+  margin: 10px auto;
+}
+.starspangledcred a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font: 900 9px 'playfair display';
+  letter-spacing: 1.5px;
+  color: var(--custom);
+}
