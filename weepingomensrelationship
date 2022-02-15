@@ -1,0 +1,135 @@
+
+.weepingomensrel {
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 550px;
+  height: auto;
+}
+.weepingomensrelbox {
+    max-width: 252px;
+  height: 290px;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+  margin: 40px auto; 
+}
+.weepingomensrelbox .top {
+    overflow: hidden;
+  background-color: #333333;
+  padding: 10px;
+  border-radius: 5px 5px 0px 0px;
+  position: relative;
+  z-index: 5;
+}
+.weepingomensrelbox .top:before {
+  content: "trust";
+  position: absolute;
+  top: -5px;
+  font-family: montserrat;
+  font-size: 35px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #fff;
+  opacity: 20%;
+  letter-spacing: 10px;
+}
+.weepingomensrelbox .top div {
+    position: relative;
+  opacity: 85%;
+}
+.weepingomensrelbox .top div span {
+  display: block;
+  width: 0%;
+  border-radius: 15px;
+  height: 6px;
+  background: linear-gradient(to left, var(--accent1), var(--accent2));
+}
+.weepingomensrelbox .icon {
+  height: 80px;
+  width: 80px;
+  padding: 35px;
+  background: radial-gradient(
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(237, 237, 237, 0) 95%
+  );
+  border-radius: 100%;
+  margin: -25px;
+  position: absolute;
+}
+.weepingomensrelbox .icon img {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  transform: rotate(10deg);
+}
+.weepingomensrelbox .name {
+  padding: 20px 20px 20px 100px;
+  text-align: right;
+  font: bold 10px montserrat;
+  line-height: 10px;
+  color: #eeeeee;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 5px rgba(33, 33, 33, 0.15);
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  letter-spacing: 0.5px;
+  position: relative;
+  z-index: 1;
+}
+.weepingomensrelbox .name a {
+  text-decoration: none;
+  font: bold 22px montserrat;
+  line-height: 15px;
+  color: #eeeeee;
+  display: block;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  letter-spacing: -0.5px;
+}
+.weepingomensrelbox .blurb {
+    padding: 30px;
+  background-color: #333;
+  border: solid 1px #333;
+  border-top: none;
+  border-radius: 0px 0px 5px 5px;
+}
+.weepingomensrelbox .blurb div {
+  height: 130px;
+  width: 200px;
+  overflow: auto;
+  padding-left: 20px;
+  padding-right: 15px;
+  font: 12px roboto;
+  line-height: 17px;
+  text-align: justify;
+  letter-spacing: 0.25px;
+  color: #afafaf;
+  background: #333;
+  position: relative;
+  top: -30px;
+  right: 25px;
+}
+.weepingomensrelbox .blurb a {
+  text-decoration: none;
+  font-weight: 700 !important;
+  background: linear-gradient(to top left, var(--accent1), var(--accent2));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.weepingomensrelbox .blurb div::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 0px;
+  border: none;
+  background: transparent;
+}
+.weepingomensrelbox .blurb div::-webkit-scrollbar-thumb {
+  border: solid 1px #333;
+  background: #aaa;
+}
