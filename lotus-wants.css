@@ -13,7 +13,7 @@
 }
 .lotus-want1 {
   overflow: hidden;
-  width: 300px;
+  width: 270px;
   background-color: var(--custom);
   border-radius: 5px;
   height: 400px;
@@ -26,7 +26,7 @@
   text-align: center;
   position: relative;
   top: 60px;
-  right: -150px;
+  right: -120px;
   color: #fff;
     font-size: 12px;
   font-weight: 800;
@@ -79,8 +79,8 @@
   border-radius: 0px 0px 5px 5px;
 }
 .lotus-want1 .blurb div {
-  height: 250px;
-  width: 200px;
+  height: 225px;
+  width: 170px;
   overflow: auto;
   padding-left: 20px;
   padding-right: 15px;
