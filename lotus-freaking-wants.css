@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Gaegu:wght@700&family=Lato:wght@300;900&display=swap");
 
 .lotus-want {
-  margin: auto;
+  margin: 30px auto;
   width: 650px;
   display: flex;
   flex-flow: row wrap;
@@ -38,7 +38,7 @@
   top: 60px;
   right: -50px;
   z-index: 5;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 900;
   font-family: "montserrat";
   text-transform: uppercase;
