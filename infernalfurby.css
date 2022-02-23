@@ -33,6 +33,7 @@ background-image: url("https://www.transparenttextures.com/patterns/axiom-patter
   right: -65px;
   text-align: justify;
   font: 11px/160% 'poppins';
+  color: #222;
 }
 .tonitebody:first-letter {
   font: 900 20px 'playfair display';
