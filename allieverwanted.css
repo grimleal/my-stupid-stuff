@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gaegu:wght@700&family=Lato:wght@300;900&display=swap");
+.allieverwanted {
+  margin: auto;
+  width: 450px;
+  height: 660px;
+  border: 1px solid #b5b5b5;
+  background: #efefef;
+}
+.allieverwanted-top {
+  padding: 30px;
+  background-color: var(--custom);
+}
+.allieverwanted-lyric1 {
+  position: relative;
+  top: 25px;
+  right: -20px;
+  width: 550px;
+  font: 900 25px roboto;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  text-transform: uppercase;
+  opacity: 85%;
+}
+
+.allieverwanted-lyric2 {
+  background: #efefef;
+  position: relative;
+  z-index: 999;
+  top: 10px;
+  right: -20px;
+  padding-left: 50px;
+  padding-bottom: 5px;
+  width: 350px;
+  height: 30px;
+  font: italic 900 25px roboto;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--custom);
+  text-transform: uppercase;
+}
+.allieverwanted-img {
+  width: 300px;
+  height: 150px;
+ position: relative;
+  filter: grayscale(100%)contrast(84%);
+  right: -40px;
+  outline: 1px solid #fff;
+  outline-offset: -10px;
+}
+.allieverwanted-img img {
+  width: 300px;
+  height: 150px;
+}
+.allieverwanted-body::-webkit-scrollbar {
+  background-color: #efefef;
+  width: 19px;
+  height: 19px;
+}
+.allieverwanted-body::-webkit-scrollbar-thumb {
+  border: solid 9px #efefef;
+  background-color: var(--custom);
+}
+.allieverwanted-body {
+  width: 300px;
+  height: 350px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-left: 1px solid var(--custom);
+  overflow: auto;
+  position: relative;
+  top: 0px;
+  right: -40px;
+}
+.allieverwanted-body div {
+  text-align: justify;
+  font: 13px/150% roboto;
+  color: #111;
+  background: #efefef;
+}
+.allieverwanted-body div b {
+  color: var(--custom);
+  font: 500 15px 'montserrat';
+}
+.allieverwanted-body div b i {
+  color: var(--custom);
+}
+.allieverwanted-body div i {
+  color: #444;
+}
