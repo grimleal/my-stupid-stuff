@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gaegu:wght@700&family=Lato:wght@300;900&display=swap");
+
 .concrete-jungle {
   margin: 35px auto;
   border: 1px solid #afafaf;
-  background: #efefef;
+  background: #f7f7f7;
   width: 450px;
-  max-height: 560px;
+  max-height: 560px; 
   padding: 35px;
   overflow: hidden;
 }
@@ -18,34 +19,34 @@
 }
 .concrete-jungle-top {
   width: 450px;
-  min-height: 120px;
+  min-height: 130px;
   background-color: var(--custom);
    background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
-  color: #eee;
+  color: #222;
   font: 12px roboto;
 }
 .cc-lyric1 {
-   width: 390px;
-  font: 900 23px "playfair display";
+   width: 450px;
+  font: 900 25px "montserrat";
   text-transform: uppercase;
   color: white;
-  opacity: 85%;
+  text-align:center;
   position: relative;
-  right: -15px;
+  right: 0;
   top: 15px;
 }
 .cc-lyric2 {
-  width: 400px;
-    font: 500 22px "lato";
+  max-width: 300px;
+    font: 500 10px "montserrat";
   text-transform: lowercase;
-  text-align: right;
+  text-align: center;
   padding: 5px;
   border-radius: 5px;
-  opacity: 85%;
+  background: rgba(0,0,0,.8);
   color: white;
   position: relative;
-  top: 10px;
-  right: -10px;
+  top: 25px;
+  right: -60px;
 }
 #cc-body {
   width: 200px;
@@ -74,35 +75,39 @@
 }
 #cc-body:hover filter {
   transition: .5s ease;
-  opacity: 85%;
+  opacity: 55%;
 }
 #cc-body icon {
   display: inline-block;
-  font-size: 100px;
+  font-size: 80px;
   color: #fff;
+    text-shadow: 0 0 5px white;
   position: relative;
   z-index: 100;
   opacity: 0;
-  right: -50px;
+  right: -55px;
   top: -300px;
-  transition: 0;
+  transition: .8s ease;
 }
 #cc-body tag {
   display: flex;
   margin: 5px;
-  max-width: 150px;
+  max-width: 135px;
   padding: 5px;
+  padding-left: 15px;
 position: relative;
   z-index: 102;
-  top: -300px;
-  right: -10px;
+  top: -250px;
+  right: -15px;
   background: #fff;
-  border-left: 5px solid black;
-  font: 900 20px playfair display;
+  border-left: 5px solid #000;
+  font: 900 15px roboto;
   color: var(--custom);
   opacity: 0;
+  text-align: center;
 }
 #cc-body tag a {
+  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   color: var(--custom);
@@ -114,8 +119,8 @@ position: relative;
 }
 #cc-body:hover icon {
   opacity: 1;
-  transform: rotate(-360deg);
-  transition: 2.8s ease;
+  transition: 1s ease;
+  text-shadow: 0 0 20px white;
 }
 #cc-body:hover img {
   filter: grayscale(100%);
@@ -126,7 +131,7 @@ position: relative;
 }
 .cc-body1 {
   position: relative;
-  top: -565px;
+  top: -600px;
   right: -215px;
   padding-right: 20px;
   width: 225px;
@@ -137,7 +142,7 @@ position: relative;
   font: 400 12px/150% roboto;
 }
 .cc-body1 i {
-  color: #3f3f3f;
+  color: #333;
 }
 .cc-body1 b i {
   color: var(--custom);
@@ -149,4 +154,10 @@ position: relative;
 .cc-body1 a {
   text-decoration: none;
   color: #afafaf;
+}
+.cc-body1 u {
+  color: #f7f7f7;
+  font: 11px roboto;
+  text-decoration: none;
+  border-bottom: 1px solid var(--custom);
 }
